@@ -1,1 +1,12 @@
+@charset 'utf-8';
+
+$fa-font-path: "../../node_modules/font-awesome/fonts" !default;
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+@import 'font-awesome';
+
+@include foundation-everything;
+@include motion-ui-transitions;
+@include motion-ui-animations;
 

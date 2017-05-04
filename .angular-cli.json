@@ -21,6 +21,15 @@
       "styles": [
         "app/app.scss"
       ],
+      "stylePreprocessorOptions": {
+  	"includePaths": [
+   		 "../node_modules/foundation-sites/scss",
+		 "../node_modules/motion-ui/src",
+		 "../node_modules/font-awesome/scss",
+                 "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)",
+		 "../src/assets/scss"
+         ]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -28,6 +37,9 @@
         "prod": "environments/environment.prod.ts"
       }
     }
+  ],
+  "addons": [
+    
   ],
   "e2e": {
     "protractor": {
